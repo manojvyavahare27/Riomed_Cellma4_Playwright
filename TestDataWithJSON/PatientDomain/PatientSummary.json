@@ -1,0 +1,291 @@
+{
+  "loginDetails": [
+    {
+      "username": "manoj.auto",
+      "password": "Manoj@2023"
+    },
+    {
+      "username": "prerelease.auto",
+      "password": "Manoj@2023"
+    }
+  ],
+  "PatientDetails": [
+    {
+      "pat_hospital_ref": "href05Reco002",
+      "pat_title": "B/O",
+      "pat_firstname": "Raj",
+      "pat_surname": "Gaikwad",
+      "pat_sex": "M",
+      "pat_dob": "28/09/1994",
+      "pat_marital_status": "Single",
+      "pat_ethnicity_text": "Indian",
+      "pat_occupation": "Trainer",
+      "pat_notes": "Added for Testing",
+      "pat_type": "Regular",
+      "pat_maiden_name": "Pune",
+      "pat_blood_group": "B+",
+      "pat_religion": "Hindu",
+      "pat_middlename": "Martin",
+      "pat_registered_disabled_yes": "No",
+      "pat_registered_disabled": 0,
+      "pat_currently_pregnant_yes": "No",
+      "pat_currently_pregnant": 0,
+      "pat_language": "English",
+      "pat_temp_address_start": "01-04-2023",
+      "pat_country_of_birth": "India",
+      "pat_gender_at_birth": "M",
+      "pat_nationality": "Indian",
+      "pat_prisoner_yes": "No",
+      "pat_county_of_birth": "Maharashtra",
+      "pat_town_of_birth": "Pune",
+      "pat_sexual_orientation_eli_text": "Heterosexuality",
+      "pat_disability_note": "For Testing"
+    }
+  ],
+  "MedicationCategory": [],
+  "AddMedication": [
+    {
+      "pacr_category": "Medications",
+      "pacr_que_name": "Aspirin 25mg capsules",
+      "medi_dose": "2",
+      "medi_frequency": "12 Hours",
+      "medi_method": "Oral",
+      "medi_route": "Oral",
+      "medi_duration": "2",
+      "meded_value": "Left",
+      "medi_start_date": "16/06/2024",
+      "medi_stop_date": "18/06/2024",
+      "pacr_status": "Current",
+      "medi_prescribed_by": "GP",
+      "pcl_location_name": "Cardio Location",
+      "pacr_que_name_Diagnosis": "Asthma",
+      "medi_notes": "Added notes for testing",
+      "medi_stopped_reason_eli_text": "Dose completed",
+      "mse_text": "Drowsiness",
+      "paprd_endorsement": "Yes",
+      "paprd_cost": "10",
+      "meded_value_Price_check_quantity": "2",
+      "meded_value_Administrator": "Administrator",
+      "meded_value_PGD": "PGD",
+      "meded_value_MaxReffills": "5",
+      "meded_value_Unit": "Tab",
+      "meded_value_Quantity": "3",
+      "meded_value_MaxReffills_1": 5,
+      "meded_value_Adherent": "Adherent",
+      "eli_text": "Antibacterial",
+      "que_display_text": "Dirty living conditions"
+    }
+  ],
+  "EditMedication": [
+    {
+      "pacr_category": "Medications",
+      "pacr_que_name": "Aspirin 25mg capsules",
+      "medi_dose": "3",
+      "medi_frequency": "24 Hours",
+      "medi_method": "Oral",
+      "medi_route": "Oral",
+      "meded_value": "Right",
+      "medi_duration": "3",
+      "medi_start_date": "12/06/2024",
+      "medi_stop_date": "14/06/2024",
+      "medi_status": "Prescribed",
+      "medi_prescribed_by": "Hospital consultant",
+      "medi_notes": "Updated notes for testing",
+      "eli_text": "Antibacterial",
+      "mse_text": "Drowsiness",
+      "meded_value_Quantity": "3",
+      "meded_value_MaxReffills": "4",
+      "meded_value_PGD": "PSD",
+      "medi_notes_1": "Edited notes for testing",
+      "pcl_location_name": "Cardio Location"
+    }
+  ],
+  "DeleteMedication": [
+    {
+      "pacr_category": "Medications",
+      "pacr_que_name": "Aspirin 25mg capsules",
+      "pacr_delete_reason": "Delete for testing"
+    }
+  ],
+  "MedicationEDS": [],
+  "AddExamination": [
+    {
+      "pacr_category": "Examinations",
+      "pacr_que_name": "Dry eye",
+      "pacr_que_name_recommendation": "Rectoplasty",
+      "exam_outcome": "Normal",
+      "pacr_clinic_date": 45407,
+      "exam_notes": "Added for Notes",
+      "eli_text": "Exm subsection",
+      "pacrd_subcategory_eli_code": "EX1008"
+    }
+  ],
+  "EditExamination": [
+    {
+      "pacr_category": "Examinations",
+      "pacr_que_name": "Dry eye",
+      "pacr_que_name_recommendation": "Rectoplasty",
+      "exam_outcome": "Abnormal",
+      "examed_value": 45407,
+      "exam_notes": "Edited for Notes"
+    }
+  ],
+  "DeleteExamination": [
+    {
+      "pacr_category": "Examinations",
+      "pacr_delete_reason": "Delete for testing"
+    }
+  ],
+  "AddRecommendations": [
+    {
+      "pacr_category": "Recommendations",
+      "pacr_que_name": "Repair of rectum",
+      "eli_text": "Recommendations",
+      "recom_review_date": "15-05-2024",
+      "recom_notes": "Added Recommendation for testing"
+    }
+  ],
+  "EditRecommendations": [
+    {
+      "pacr_category": "Recommendations",
+      "pacr_que_name": "Repair of rectum",
+      "eli_text": "Recommendations",
+      "recom_review_date": "15-05-2024",
+      "recom_notes": "Edited Recommendation for testing"
+    }
+  ],
+  "DeleteRecommendations": [
+    {
+      "pacr_category": "Recommendations",
+      "pacr_que_name": "Repair of rectum",
+      "pacr_delete_reason": "Delete for testing"
+    }
+  ],
+  "AddOutcome": [
+    {
+      "pacr_category": "Outcome",
+      "pacr_que_name": "Sleep walking disorder",
+      "pacr_clinic_date": 45420,
+      "pacr_risk": "none",
+      "outc_date": 45425,
+      "outc_frequency": 1,
+      "outc_notes": "Added Notes for Outcome",
+      "eli_text": "Normal Outcome",
+      "pacrd_subcategory_eli_code": "OUTC12345"
+    }
+  ],
+  "EditOutcome": [
+    {
+      "pacr_category": "Outcome",
+      "pacr_que_name": "Sleep walking disorder",
+      "pacr_clinic_date": 45420,
+      "pacr_risk": "moderate",
+      "outc_date": 45421,
+      "outc_frequency": 2,
+      "outc_notes": "Updated Notes for Outcome",
+      "eli_text": "Abnormal Outcome",
+      "pacrd_subcategory_eli_code": "OUTC12346"
+    }
+  ],
+  "DeleteOutcome": [
+    {
+      "pacr_que_name": "Sleep walking disorder",
+      "pacr_delete_reason": "Delete for testing"
+    }
+  ],
+  "AddDiagnosis": [
+    {
+      "pacr_category": "Diagnosis",
+      "pacr_que_name": "Dengue haemorrhagic fever",
+      "pacr_status": "suspected",
+      "pacr_risk": "none",
+      "diag_diagnosis_status": "Suspected",
+      "diag_severity": "Mild",
+      "diag_activity": "Remission",
+      "diag_date_firstseen": "08-05-2024",
+      "diag_date_onset": "08-05-2024",
+      "diag_date_diagnosed": "08-05-2024",
+      "diag_notes": "Added Diagnosis Notes From Playwright",
+      "remove_favourites": "Hypothyroidism"
+    }
+  ],
+  "EditDiagnosis": [
+    {
+      "pacr_category": "Diagnosis",
+      "pacr_que_name": "Dengue haemorrhagic fever",
+      "pacr_status": "suspected",
+      "pacr_risk": "none",
+      "diag_diagnosis_status": "Secondary",
+      "diag_severity": "Moderate",
+      "diag_activity": "Smouldering",
+      "diag_date_firstseen": "09-05-2024",
+      "diag_date_onset": "09-05-2024",
+      "diag_date_diagnosed": "09-05-2024",
+      "diag_notes": "Updated Diagnosis Notes From Playwright"
+    }
+  ],
+  "DeleteDiagnosis": [
+    {
+      "pacr_que_name": "Dengue haemorrhagic fever",
+      "pacr_delete_reason": "Delete for testing"
+    }
+  ],
+  "AddInterpretation": [
+    {
+      "pacr_category": "Interpretation",
+      "pacr_que_name": "Alcohol deterrents",
+      "inte_outcome_eli_text": "Abnormal",
+      "pacr_clinic_date": 45453,
+      "inte_notes": "Added for Notes",
+      "eli_text": "Interpretation 1"
+    }
+  ],
+  "EditInterpretation": [
+    {
+      "pacr_category": "Interpretation",
+      "pacr_que_name": "Alcohol deterrents",
+      "inte_outcome_eli_text": "Normal",
+      "pacr_clinic_date": 45453,
+      "inte_notes": "Edited Notes for Interpretation",
+      "eli_text": "Interpretation 1"
+    }
+  ],
+  "DeleteInterpretation": [
+    {
+      "pacr_category": "Interpretation",
+      "pacr_que_name": "Alcohol deterrents",
+      "pacr_delete_reason": "Delete for testing"
+    }
+  ],
+  "AddAllergy": [
+    {
+      "pacr_category": "Allergies",
+      "pacr_que_name": "Coal dust",
+      "alrg_reaction_severity": "Moderate",
+      "pacr_clinic_date": 45474,
+      "alrg_notes": "Add for Notes",
+      "eli_text": "Sneezing",
+      "alrg_start_date": "20-05-2024",
+      "alrg_end_date": "23-06-2024"
+    }
+  ],
+  "EditAllergy": [
+    {
+      "pacr_category": "Allergies",
+      "pacr_que_name": "Coal dust",
+      "alrg_reaction_severity": "Moderate",
+      "pacr_clinic_date": 45474,
+      "alrg_notes": "Edit for Notes",
+      "eli_text": "Sneezing",
+      "alrg_start_date": "20-05-2024",
+      "alrg_end_date": "23-06-2024"
+    }
+  ],
+  "DeleteAllergy": [
+    {
+      "pacr_category": "Allergies",
+      "pacr_que_name": "Coal dust",
+      "pacr_delete_reason": "Delete for testing"
+    }
+  ]
+}
