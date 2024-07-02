@@ -150,7 +150,7 @@ test.describe("Recommendations Category", () => {
       await page.getByRole('checkbox', { name: 'Set as default' }).click()
       await RecommendationsExtraDetails.enterClinicalItemNotes(jsonData.AddRecommendations[index].recom_notes);
       await RecommendationsExtraDetails.clickOnSave();
-      await page.waitForTimeout(500);
+      await page.waitForTimeout(1000);
       await expect(page.getByText("Recommendation Record Added Successfully")).toHaveText("Recommendation Record Added Successfully");
       //await expect(page.getByText(`${clinicaCatergory} Record Added Successfully`)).toHaveText(`${clinicaCatergory} Record Added Successfully`); 
      

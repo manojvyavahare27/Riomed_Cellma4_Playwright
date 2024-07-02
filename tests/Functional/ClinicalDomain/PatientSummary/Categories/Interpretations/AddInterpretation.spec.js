@@ -146,7 +146,7 @@ test.describe("Interpretations Category", () => {
      // await //page.getByRole('checkbox', { name: 'Set as default' }).click()
       await InterpretationsExtraDetails.enterClinicalItemNotes(jsonData.AddInterpretation[index].inte_notes);
       await InterpretationsExtraDetails.clickOnSave();
-      await page.waitForTimeout(500);
+      await page.waitForTimeout(1000);
       await expect(page.getByText("Interpretation Record Added Successfully")).toHaveText("Interpretation Record Added Successfully");
       //await expect(page.getByText(`${clinicaCatergory} Record Added Successfully`)).toHaveText(`${clinicaCatergory} Record Added Successfully`); 
      
